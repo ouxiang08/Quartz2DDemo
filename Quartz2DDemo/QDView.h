@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QDView.h
 //  Quartz2DDemo
 //
 //  Created by jiajingjing on 15/6/30.
@@ -7,12 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-@class QDGradientView;
 
-@interface ViewController : UIViewController{
+@interface QDView : UIView
 
-    QDGradientView *progressView;
-}
+
 
 @end
-
